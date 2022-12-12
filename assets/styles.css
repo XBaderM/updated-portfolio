@@ -76,3 +76,48 @@ section {
   min-height: 500px;
   /* border: 2px solid black; */
 }
+
+h1 {
+  font-size: 34px;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border: 0;
+  float: left;
+}
+
+.project-box {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.about-me {
+  /* border: 3px solid black; */
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: 400px;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+}
+.me {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid grey;
+  width: 100%;
+  min-height: 150px;
+  background-color: aqua;
+  /* margin-bottom: 20px; */
+}
