@@ -41,3 +41,38 @@
   flex-direction: column;
   background: rgba(0, 0, 0, 0.65);
 }
+
+.overlay h2 {
+  color: azure;
+}
+.header {
+  background-color: rgb(9, 9, 9);
+}
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+.nav {
+  display: flex;
+  border: 3px solid black;
+}
+ul {
+  list-style: none;
+}
+.ul {
+  display: flex;
+  border: 3px solid black;
+  gap: 33px;
+}
+.ul a {
+  color: rgb(242, 255, 0);
+}
+.logo {
+  border: 3px solid black;
+}
+section {
+  margin-top: 70px;
+  width: 100%;
+  min-height: 500px;
+  /* border: 2px solid black; */
+}
